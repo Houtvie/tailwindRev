@@ -1,7 +1,7 @@
 
 <html lang="en">
   <head>
-    <title>Visit www.pixelrocket.store to learn how to become a frontend web developer</title>
+    <title>Association of Software Engineering Students, FUTO</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <link rel="preconnect" href="https://fonts.gstatic.com"/>
@@ -10,10 +10,40 @@
     <link rel="stylesheet" href="css/tailwind/tailwind.min.css"/>
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.png"/>
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer="defer"></script>
+
+    <!-- font family sora -->
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!--Boxicon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- AOC -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    
+    <!-- Basic Meta Tags -->
+    <meta name="description" content="The Association of Software Engineering Students, Federal University of Technology, Owerri">
+    <meta name="keywords" content="federal, university, technology, owerri, programming, futo, ases, ascension family, software engineering, the pro software engineering">
+    <meta name="author" content="The pro software engineering">
+      
+    <!-- Open Graph (Fb, LinkedIn) -->
+    <meta property="og:title" content="ASES Family, FUTO">
+    <meta property="og:description" content="The Association of Software Engineering Students, FUTOwerri">
+    <meta property="og:image" content="https://i.ibb.co/nsJC6qN6/IMG-20250511-WA0131.jpg">
+    <meta property="og:url" content="https://">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="<summ></summ>ary_large_image">
+    <meta name="twitter:title" content="ASES Family FUTO">
+    <meta name="twitter:description" content="The Association of Software Engineering Students, FUTOwerri">
+    <meta name="twitter:image" content="https://i.ibb.co/nsJC6qN6/IMG-20250511-WA0131.jpg">
+
+    <!-- Robots (SEO) -->
+    <meta name="robots" content="about, follow">
   </head>
   <body class="antialiased bg-body text-body font-body">
     <div>
-      <p class="py-4 bg-green-500 text-green-900 text-center">Want to learn how to build websites like this one? <a href="https://www.pixelrocket.store">Visit Pixel Rocket</a></p>
       <section x-data="{ mobileNavOpen: false }">
         <div class="container px-4 mx-auto">
           <div class="flex items-center justify-between pt-5 pb-2.5 -m-2">
@@ -27,7 +57,7 @@
                 <div class="w-auto hidden lg:block">
                   <ul class="flex items-center mr-12">
                     <li class="mr-12 text-white font-medium hover:text-opacity-90 tracking-tighter"><a href="about.html">About</a></li>
-                    <li class="mr-12 text-white font-medium hover:text-opacity-90 tracking-tighter"><a href="pricing.html">Pricing</a></li>
+                    <li class="mr-12 text-white font-medium hover:text-opacity-90 tracking-tighter"><a href="faq.html">FAQ</a></li>
                     <li class="mr-12 text-white font-medium hover:text-opacity-90 tracking-tighter"><a href="blog.html">Blog</a></li>
                     <li class="text-white font-medium hover:text-opacity-90 tracking-tighter"><a href="contact.html">Contact</a></li>
                   </ul>
@@ -66,7 +96,7 @@
               <div class="flex flex-col justify-center py-16 w-full">
                 <ul>
                   <li class="mb-8 text-white font-medium hover:text-opacity-90 tracking-tighter"><a href="about.html">About</a></li>
-                  <li class="mb-8 text-white font-medium hover:text-opacity-90 tracking-tighter"><a href="pricing.html">Pricing</a></li>
+                  <li class="mb-8 text-white font-medium hover:text-opacity-90 tracking-tighter"><a href="faq.html">FAQ</a></li>
                   <li class="mb-8 text-white font-medium hover:text-opacity-90 tracking-tighter"><a href="blog.html">Blog</a></li>
                   <li class="text-white font-medium hover:text-opacity-90 tracking-tighter"><a href="contact.html">Contact</a></li>
                 </ul>
@@ -76,9 +106,15 @@
           </nav>
         </div>
       </section>
-      <section class="py-20 overflow-hidden">
+      <section class="py-20 overflow-hidden flex flex-col items-center gap-10">
         <div class="container px-4 mx-auto">
-          <div class="md:max-w-xl text-center mx-auto mb-20"><span class="inline-block mb-4 text-sm text-green-400 font-medium tracking-tighter">Check our stats</span>
+          <div class="md:max-w-xl text-center mx-auto mb-20"><span class="inline-block mb-4 text-sm  font-medium tracking-tighter">
+            <span class="inline-block mb-2.5 text-xs px-4 font-medium tracking-tighter">
+              /
+              <a class="hover:text-green-400 mr-4" href="index.html">  Home</a> /
+              <a class="hover:text-green-500 text-green-400" href="about.html"> About us</a>
+            </span>
+          </span>
             <h2 class="font-heading text-7xl text-white tracking-tighter-xl">About us</h2>
           </div>
           <div class="max-w-5xl mx-auto">
@@ -346,40 +382,38 @@
                   <li><a class="inline-block text-lg font-medium text-gray-400 hover:text-black transition duration-300" href="#">Careers</a></li>
                 </ul>
               </div>
-              <div class="w-full md:w-1/2 lg:flex-1 p-8">
-                <div class="flex flex-wrap -m-2">
-                  <div class="w-full p-2"><a class="block py-5 px-8 bg-white rounded-full" href="#">
-                      <div class="flex flex-wrap items-center -m-2">
-                        <div class="w-auto p-2"><img src="template-assets/images/footers/twitter.svg" alt=""/></div>
-                        <div class="flex-1 p-2">
-                          <p class="text-black">Follow us on Twitter for updates</p>
-                        </div>
-                      </div></a></div>
-                  <div class="w-full p-2"><a class="block py-5 px-8 bg-white rounded-full" href="#">
-                      <div class="flex flex-wrap items-center -m-2">
-                        <div class="w-auto p-2"><img src="template-assets/images/footers/instagram.svg" alt=""/></div>
-                        <div class="flex-1 p-2">
-                          <p class="text-black">Follow us on Instagram for updates</p>
-                        </div>
-                      </div></a></div>
-                  <div class="w-full p-2"><a class="block py-5 px-8 bg-white rounded-full" href="#">
-                      <div class="flex flex-wrap items-center -m-2">
-                        <div class="w-auto p-2"><img src="template-assets/images/footers/tiktok.svg" alt=""/></div>
-                        <div class="flex-1 p-2">
-                          <p class="text-black">Follow us on TikTok for updates</p>
-                        </div>
-                      </div></a></div>
-                </div>
-              </div>
+              
             </div>
             <div class="flex flex-wrap justify-between -m-2">
               <div class="w-auto p-2">
-                <p class="inline-block text-sm font-medium text-black text-opacity-60">© 2023 Global Bank</p>
+                <p class="text-sm font-medium text-black text-opacity-60 flex justify-center items-center">
+                  <a href="https://www.facebook.com/profile.php?id=61577323409807"><svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22"  
+                  fill="currentColor" viewBox="0 0 24 24" >
+                  <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                  <path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22 22 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202z"></path>
+                  </svg></a>
+                  <a href="https://x.com/asesfuto"><svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20"  
+                  fill="currentColor" viewBox="0 0 24 24" >
+                  <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                  <path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.04 4.04 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.03 4.03 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.02 4.02 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.46 11.46 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a8 8 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8 8 0 0 0 2.319-.624 8.7 8.7 0 0 1-2.019 2.083"></path>
+                  </svg></a>
+                  <a href="https://www.instagram.com/asesfuto"><svg  xmlns="http://www.w3.org/2000/svg" width="18" height="18"  
+                  fill="currentColor" viewBox="0 0 24 24" >
+                  <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                  <path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248m0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008M16.806 6.129a1.078 1.078 0 1 0 0 2.156 1.078 1.078 0 1 0 0-2.156"></path><path d="M20.533 6.111A4.6 4.6 0 0 0 17.9 3.479a6.6 6.6 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.6 6.6 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.6 6.6 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71s0 2.753.056 3.71c.015.748.156 1.486.419 2.187a4.6 4.6 0 0 0 2.634 2.632 6.6 6.6 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.6 6.6 0 0 0 2.186-.419 4.61 4.61 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.6 6.6 0 0 0-.421-2.217m-1.218 9.532a5 5 0 0 1-.311 1.688 2.99 2.99 0 0 1-1.712 1.711 5 5 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a5 5 0 0 1-1.669-.311 2.99 2.99 0 0 1-1.719-1.711 5.1 5.1 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654s0-2.686.053-3.655a5 5 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5 5 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a5 5 0 0 1 1.67.311 3 3 0 0 1 1.712 1.712 5.1 5.1 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655s0 2.698-.043 3.654z"></path>
+                  </svg></a>
+                  <a href="https://www.tiktok.com/@asesfuto?is_from_webapp=1&sender_device=pc"><svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16"  
+                  fill="currentColor" viewBox="0 0 24 24" >
+                  <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                  <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 3 3 0 0 1 .88.13V9.4a7 7 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a5 5 0 0 1-1-.1z"></path>
+                  </svg></a>
+                  <span class="px-3"> ASES FUTO</span>
+                </p>
               </div>
               <div class="w-auto p-2">
                 <div class="flex flex-wrap items-center -m-2 sm:-m-7">
-                  <div class="w-auto p-2 sm:p-7"><a class="inline-block text-sm text-black text-opacity-60 hover:text-opacity-100 font-medium transition duration-300" href="#">Terms of Use</a></div>
-                  <div class="w-auto p-2 sm:p-7"><a class="inline-block text-sm text-black text-opacity-60 hover:text-opacity-100 font-medium transition duration-300" href="#">Privacy Policy</a></div>
+                  <div class="w-auto p-2 sm:p-7"><a class="inline-block text-sm text-black text-opacity-60 hover:text-opacity-100 font-medium transition duration-300" href="#">Built by</a></div>
+                  <div class="w-auto p-2 sm:p-7"><a class="inline-block text-sm text-black text-opacity-60 hover:text-opacity-100 font-medium transition duration-300" href="#">Idika</a></div>
                 </div>
               </div>
             </div>
